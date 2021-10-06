@@ -66,6 +66,11 @@ const questions = () => {
             type: 'input',
             name: 'githubname',
             message: 'What is your github username?'
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email?'
         }
     ])
 }
