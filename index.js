@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require ('inquirer');
+const fs = require('fs');
 // TODO: Create an array of questions for user input
 const questions = () => {
     return inquirer.prompt([
@@ -74,6 +75,10 @@ const questions = () => {
         }
     ])
 }
+
+// need to pass questions to an argument which will then be passed to a function to log to test questions
+// need another function that will pass the data to a function to then pass to another file that actually writes the readme
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
