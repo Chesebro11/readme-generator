@@ -42,7 +42,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'usage',
-            message: 'What is this project used to accomplish?',
+            message: 'Provide instructions and example for use. If you wish to add screenshots add them to ./assets/images',
         },
         {
             type: 'confirm',
