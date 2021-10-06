@@ -27,6 +27,46 @@ const questions = () => {
                 }
             }
         },
+        {
+            type: 'confirm',
+            name: 'confirminstall',
+            message: 'Does your project require installation instructions?',
+            default: true
+        },
+        {
+            type: 'input',
+            name: 'install',
+            message: 'Please provide detailed installation instructions',
+            when: ({ confirminstall }) => confirminstall
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: 'What is this project used to accomplish?',
+        },
+        {
+            type: 'confirm',
+            name: 'confirmcontribution',
+            message: 'Do you have guidelines for users who wish to contribute to your project?',
+            defualt: true
+        },
+        {
+            type: 'input',
+            name: 'contribution',
+            message: 'Please enter your guidlines for contribution',
+            when: ({ confirmcontribution }) => confirmcontribution
+        },
+        {
+            type: 'checkbox',
+            name: 'badges',
+            message: 'What did you create this project with? (Check all that apply)',
+            choices: ['javascript', 'HTML', 'CSS', 'ES6', 'JQuery', 'Bootstrap', 'Node', 'JSON', 'React', 'Rust', 'C#', 'Azure']
+        },
+        {
+            type: 'input',
+            name: 'githubname',
+            message: 'What is your github username?'
+        }
     ])
 }
 
@@ -34,7 +74,9 @@ const questions = () => {
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    questions();
+}
 
 // Function call to initialize app
 init();
