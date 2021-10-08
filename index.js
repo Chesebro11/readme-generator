@@ -66,7 +66,7 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'user-name',
+            name: 'username',
             message: 'What is your name?'
 
         },

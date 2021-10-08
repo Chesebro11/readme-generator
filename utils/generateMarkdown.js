@@ -15,7 +15,7 @@ function generateMarkdown(readmeInput) {
   ### Created by: ${readmeInput.username}
   <a href="https://github.com/${readmeInput.githubname}">Github: ${readmeInput.githubname} </a>
 
-  ##Table Of Contents
+  ## Table Of Contents
 
   *[Project Description](#project-description)
   *[License Information](#license-information)
