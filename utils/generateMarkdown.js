@@ -9,10 +9,39 @@ function renderLicenseBadge(license) {
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+function generateMarkdown(readmeInput) {
+  return `## ${readmeInput.projectname}
+
+  ### Created by: ${readmeInput.username}
+  <a href="https://github.com/${readmeInput.githubname}">Github: ${readmeInput.githubname} </a>
+
+  ##Table Of Contents
+
+  *[Project Description](#project-description)
+  *[License Information](#license-information)
+  *[Installion Instructions](#installion-instruction)
+  *[Usage Information](#usage-information)
+  *[Project Contribution](#project-contributions)
+  *[Testing Instructions](#testing-instructions)
+  *[Contact](#contact)
+
+  ## Project Description
+  ${readmeInput.projectdescription}
+
+  ## License Information
+  ${renderLicenseBadge(readmeInput.badges)}
+
+  ## Installation Instructions
+  ${readmeInput.install}
+
+  ## Usage Information
+  ${readmeInput.usage}
+
+  ## Contact
+  ${readmeInput.email}
+  <a href="https://github.com/${readmeInput.githubname}">Github: ${readmeInput.githubname} </a>
 
 `;
 }
 
-module.exports = generateMarkdown;
+module.exports = {generateMarkdown};
