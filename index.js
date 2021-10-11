@@ -67,13 +67,27 @@ const questions = () => {
         {
             type: 'input',
             name: 'username',
-            message: 'What is your name?'
+            message: 'What is your name?',
+            validate: username => {
+                if (username) {
+                    return true;
+                } else {
+                    console.log('Please enter your name!')
+                }
+            }
 
         },
         {
             type: 'input',
             name: 'githubname',
-            message: 'What is your github username?'
+            message: 'What is your github username?',
+            validate: githubname => {
+             if (githubname) {
+                return true;
+            } else {
+                console.log('Please provide your Github Username')
+            }
+         }
         },
         {
             type: 'input',
@@ -97,10 +111,10 @@ questions()
     });
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, readmeInput) {
-    console.log(fileName, readmeInput);
-    return fs.writeFileSync(path.join(process.cwd(), fileName), readmeInput);
-}
+// function writeToFile(fileName, readmeInput) {
+//     console.log(fileName, readmeInput);
+//     return fs.writeFileSync(path.join(process.cwd(), fileName), readmeInput);
+// }
 
 // TODO: Create a function to initialize app
 

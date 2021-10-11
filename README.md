@@ -1,9 +1,9 @@
-## project 1
+## Project 1
 
-  ### Created by: undefined
+  ### Created by: Jared Chesebro
   <a href="https://github.com/Chesebro11">Github: Chesebro11 </a>
 
-  ##Table Of Contents
+  ## Table Of Contents
 
   *[Project Description](#project-description)
   *[License Information](#license-information)
@@ -14,18 +14,18 @@
   *[Contact](#contact)
 
   ## Project Description
-  dkfasj dkljg ieorawjg kdsmvkowajgk jkvsaljkrjaeg 
+  my project is a project
 
   ## License Information
-  ![License](https://img.shields.io/badge/License-javascript,HTML,CSS,ES6,JQuery-brightgreen.svg)
+  ![License](https://img.shields.io/badge/License-javascript,HTML,CSS,ES6,JQuery,Bootstrap,Node,JSON,React,Rust,C#,Azure-brightgreen.svg)
 
   ## Installation Instructions
-  undefined
+  dksjafkja
 
   ## Usage Information
-  kdjsagklj dsakl gjskla gjdsakgj 
+  fjksaklfjaksljf
 
   ## Contact
-  Chesebrojared@gmail.com
+  chesebrojared@gmail.com
   <a href="https://github.com/Chesebro11">Github: Chesebro11 </a>
 
