@@ -24,7 +24,7 @@
 
   ## Usage Information
   Please click the link below to watch a brief video showing how to use this app:
-  chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/033ee161-2374-4463-ya10-7eefc7dad032
+  https://watch.screencastify.com/v/q7HF66m0jhGOFXw0glnG
 
   ## Contact
   chesebrojared@gmail.com
