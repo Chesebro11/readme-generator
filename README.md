@@ -23,7 +23,8 @@
   Copy the files in the repository to your computer, using a terminal navigate to the root of the project and run the command: node index to begin
 
   ## Usage Information
-  
+  Please click the link below to watch a brief video showing how to use this app:
+  chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/033ee161-2374-4463-ya10-7eefc7dad032
 
   ## Contact
   chesebrojared@gmail.com
