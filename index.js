@@ -44,13 +44,13 @@ const questions = () => {
         {
             type: 'input',
             name: 'usage',
-            message: 'Provide instructions and example for use. If you wish to add screenshots add them to ./assets/images',
+            message: 'Provide instructions and example for use.',
         },
         {
             type: 'confirm',
             name: 'confirmcontribution',
             message: 'Do you have guidelines for users who wish to contribute to your project?',
-            defualt: true
+            default: true
         },
         {
             type: 'input',

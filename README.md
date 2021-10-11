@@ -1,4 +1,4 @@
-## Project 1
+## Readme-Generator
 
   ### Created by: Jared Chesebro
   <a href="https://github.com/Chesebro11">Github: Chesebro11 </a>
@@ -14,16 +14,16 @@
   *[Contact](#contact)
 
   ## Project Description
-  my project is a project
+  The readme generator is a tool designed to help create readme files for github repositories using node.js, inquirer, and javascript. The user is prompted with a few questions that are then used to fill out a readme template
 
   ## License Information
-  ![License](https://img.shields.io/badge/License-javascript,HTML,CSS,ES6,JQuery,Bootstrap,Node,JSON,React,Rust,C#,Azure-brightgreen.svg)
+  ![License](https://img.shields.io/badge/License-javascript,ES6,Node-brightgreen.svg)
 
   ## Installation Instructions
-  dksjafkja
+  Copy the files in the repository to your computer, using a terminal navigate to the root of the project and run the command: node index to begin
 
   ## Usage Information
-  fjksaklfjaksljf
+  
 
   ## Contact
   chesebrojared@gmail.com
